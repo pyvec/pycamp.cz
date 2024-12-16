@@ -62,3 +62,9 @@ a.icon:hover, a.icon:focus {
     border: 2px solid #DDD;
     border-radius: 50%;
 }
+.illustration {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
