@@ -7,6 +7,7 @@ body {
 }
 h1, h2, h3 {
     line-height: 1.2;
+    clear: both;
 }
 @media (prefers-color-scheme: dark) {
     body{
@@ -35,9 +36,6 @@ ul.team li {
     float: left;
     width: 33%;
     list-style-type: none;
-}
-ul.team li:last-child {
-    float: right;
 }
 a.icon, a.icon:hover, a.icon:focus, 
 .icon a, .icon:hover a, .icon:focus a,
