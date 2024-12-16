@@ -27,10 +27,13 @@ h1, h2, h3 {
 }
 ul.team {
     text-align: center;
-    line-height: 0.5;
+}
+ul.team li p {
+    margin-bottom: 0;
+    margin-top: 0;
 }
 ul.team li p:last-child {
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 ul.team li {
     float: left;
