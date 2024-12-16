@@ -27,6 +27,9 @@ h1, h2, h3 {
 }
 ul.team {
     text-align: center;
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 0;
 }
 ul.team li p {
     margin-bottom: 0;
@@ -38,7 +41,6 @@ ul.team li p:last-child {
 ul.team li {
     float: left;
     width: 33%;
-    list-style-type: none;
 }
 a.icon, a.icon:hover, a.icon:focus, 
 .icon a, .icon:hover a, .icon:focus a,
