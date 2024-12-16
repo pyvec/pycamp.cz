@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+UID:info@pycamp.cz
+DTSTART;VALUE=DATE:20250912
+DTEND;VALUE=DATE:20250915
+SUMMARY:PyCamp CZ 25 beta
+URL:https://pycamp.cz/
+DESCRIPTION:Organized entirely by volunteers from the Czech Python community\, organizers of PyCon CZ\, Pyvo meetups and Python Pizza Brno\, we bring the Python Community together for the beta version of a Python barcamp\, at a better place than a camp. This is a smaller event than PyCon CZ\, we anticipate up to 100 participants.\n\nSave the date. More info will follow in 2025.\n\nhttps://pycamp.cz/
+LOCATION:Třeštice 32\, 58856 Třeštice\, Česko
+END:VEVENT
+END:VCALENDAR
