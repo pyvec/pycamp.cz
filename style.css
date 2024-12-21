@@ -9,18 +9,6 @@ h1, h2, h3 {
     line-height: 1.2;
     clear: both;
 }
-@media (prefers-color-scheme: dark) {
-    body{
-        color: #c9d1d9;
-        background: #0d1117;
-    }
-    a:link{
-        color: #58a6ff;
-    }
-    a:visited{
-        color: #8e96f0;
-    }
-}
 .icon {
     font-size: 1rem;
     color: #aaa;
@@ -67,4 +55,29 @@ a.icon:hover, a.icon:focus {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #c9d1d9;
+        background: #0d1117;
+    }
+    a:link {
+        color: #58a6ff;
+    }
+    a:visited {
+        color: #8e96f0;
+    }
+    .illustration {
+        filter: invert(1);
+    }
+    .avatar {
+        background-color: #111;
+        border-color: #333;
+    }
+    a.icon:link, a.icon:visited{
+        color: #979797;
+    }
+    a.icon:hover, a.icon:focus {
+        color: #cecece;
+    }
 }
