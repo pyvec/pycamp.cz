@@ -52,7 +52,6 @@ a.icon:hover, a.icon:focus {
 }
 .illustration {
     display: block;
-    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -67,7 +66,7 @@ a.icon:hover, a.icon:focus {
     a:visited {
         color: #8e96f0;
     }
-    .illustration {
+    .dark-invert {
         filter: invert(1);
     }
     .avatar {
