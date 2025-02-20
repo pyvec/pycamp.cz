@@ -1,0 +1,68 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for considering sharing a transport to/from PyCamp CZ 25 Beta.
+  - type: dropdown
+    id: type
+    attributes:
+      label: "I am..."
+      options:
+        - offering a seat in my car
+        - looking for a seat in a car
+        - looking for a public transit companion
+      default: 0
+    validations:
+      required: true
+  - type: checkboxes
+    id: direction
+    attributes:
+      label: "Which direction?"
+      description: You may select more than one.
+      options:
+        - label: to PyCamp CZ
+        - label: from PyCamp CZ
+    validations:
+      required: true
+  - type: input
+    id: capacity
+    attributes:
+      label: How many seats are available in the car?
+      description: "Skip this if not applicable."
+    validations:
+      required: true
+  - type: input
+    id: origin
+    attributes:
+      label: Where do you travel from/to?
+      description: "Use the main origin/destination of your journey"
+    validations:
+      required: true
+  - type: input
+    id: stops
+    attributes:
+      label: Major destinations along the way
+      description: "If you go trough any significant city, you may say it here"
+    validations:
+      required: false
+  - type: input
+    id: time_to
+    attributes:
+      label: When do you intent to travel to PyCamp CZ?
+      description: "At least a rough estimate (day of the week). Skip if not applicable."
+    validations:
+      required: false
+  - type: input
+    id: time_from
+    attributes:
+      label: When do you intent to travel back from PyCamp CZ?
+      description: "At least a rough estimate (day of the week). Skip if not applicable."
+    validations:
+      required: false
+  - type: textarea
+    id: etc
+    attributes:
+      label: Anything else
+      description: "Use this to optionally share more information"
+    validations:
+      required: false
