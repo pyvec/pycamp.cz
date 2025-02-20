@@ -1,0 +1,36 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for considering an active participation on PyCamp CZ 25 Beta.
+        
+        You can fill in the form in English, Czech or Slovak.
+        We recommend using the same language you plan to use at PyCamp CZ.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: "Briefly describe the content you'd like to share on PyCamp CZ 25"
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Audience
+      description: "Who will benefit the most form attending this?"
+    validations:
+      required: true
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: "What do you need for this to succeed? What kind of space, time does it require?"
+    validations:
+      required: true
+  - type: textarea
+    id: etc
+    attributes:
+      label: Anything else
+      description: "Use this to optionally share more information"
+    validations:
+      required: false
