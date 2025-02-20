@@ -34,3 +34,12 @@ body:
       description: "Use this to optionally share more information"
     validations:
       required: false
+  - type: checkboxes
+    id: coc
+    attributes:
+      label: Code of Conduct
+      description: The Code of Conduct helps create a safe space for everyone. We require
+        that everyone agrees to it.
+      options:
+        - label: I agree to follow the [Code of Conduct of Pyvec](https://pyvec.org/en/coc/)
+          required: true

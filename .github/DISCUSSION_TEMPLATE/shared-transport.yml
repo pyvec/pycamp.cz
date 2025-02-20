@@ -66,3 +66,20 @@ body:
       description: "Use this to optionally share more information"
     validations:
       required: false
+  - type: checkboxes
+    id: coc
+    attributes:
+      label: Code of Conduct
+      description: The Code of Conduct helps create a safe space for everyone. We require
+        that everyone agrees to it. It applies even when sharing transport before or after PyCamp CZ.
+      options:
+        - label: I agree to follow the [Code of Conduct of Pyvec](https://pyvec.org/en/coc/)
+          required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: At my own risk
+      description: The PyCamp CZ organizers cannot be responsible for your safety when sharing transportation with others.
+      options:
+        - label: I am willing to share transportation at my own risk.
+          required: true
