@@ -30,7 +30,7 @@ body:
       label: How many seats are available in the car?
       description: "Skip this if not applicable."
     validations:
-      required: true
+      required: false
   - type: input
     id: origin
     attributes:

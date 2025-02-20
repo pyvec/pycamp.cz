@@ -24,7 +24,7 @@ body:
     id: requirements
     attributes:
       label: Requirements
-      description: "What do you need for this to succeed? What kind of space, time does it require?"
+      description: "What do you need for this to succeed? What kind of space, time, equipment does it require?"
     validations:
       required: true
   - type: textarea
