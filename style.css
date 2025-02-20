@@ -55,6 +55,17 @@ a.icon:hover, a.icon:focus {
     margin-left: auto;
     margin-right: auto;
 }
+a button {
+    margin: 0;
+    touch-action: manipulation;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #FFF;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
 @media (prefers-color-scheme: dark) {
     body {
         color: #c9d1d9;
