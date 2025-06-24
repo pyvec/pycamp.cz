@@ -1,0 +1,36 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for considering sharing a room at PyCamp CZ 25 Beta.
+  - type: input
+    id: capacity
+    attributes:
+      label: How many people do you already have
+      description: "Including you"
+    validations:
+      required: true
+  - type: textarea
+    id: etc
+    attributes:
+      label: Anything else
+      description: "Use this to optionally share more information, e.g. what do you expect from your room mates"
+    validations:
+      required: false
+  - type: checkboxes
+    id: coc
+    attributes:
+      label: Code of Conduct
+      description: The Code of Conduct helps create a safe space for everyone. We require
+        that everyone agrees to it.
+      options:
+        - label: I agree to follow the [Code of Conduct of Pyvec](https://pyvec.org/en/coc/)
+          required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: At my own risk
+      description: The PyCamp CZ organizers cannot be responsible for your safety when sharing rooms with strangers.
+      options:
+        - label: I am willing to share rooms at my own risk.
+          required: true
