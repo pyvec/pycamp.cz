@@ -8,6 +8,29 @@
     <link rel="stylesheet" href="style.css?version=2">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏕️</text></svg>">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1em 0;
+            }
+
+        thead th, td:first-child {
+            background: #f0f0f0;
+            text-align: left;
+            padding: 0.5em;
+            font-weight: bold;
+            }
+
+        td, th {
+            border: 1px solid #ccc;
+            padding: 0.5em;
+            }
+
+        td.crossed {
+            background-image: linear-gradient(to bottom right,  transparent calc(50% - 1px), #ccc, transparent calc(50% + 1px));
+        }
+    </style>
 </head>
 <body>
 <h1 id="pycampcz"><span aria-hidden="true">🏕️ </span>PyCamp CZ 25 beta</h1>
@@ -72,6 +95,64 @@ Do you have content ideas? Share them with others via GitHub Discussions:
 <p>
 To avoid the anxiety of the unknown, we expect to tease you with some content before the event anyway. Stay tuned. By the way, have we mentioned this is a beta version? Adjust your expectations. We will do everything in our power to make this a wonderful experience for everybody. Depending on how things go, this might become a regular thing.
 </p>
+
+<h3 id="schedule">Flexible programme grid</h3>
+<p>All programme slots are open for contributions – bring your ideas, energy, and curiosity!</p>
+
+<table>
+<colgroup>
+  <col style="width: 10%;"> <!-- Time column -->
+  <col style="width: 30%;"> <!-- Friday -->
+  <col style="width: 30%;"> <!-- Saturday -->
+  <col style="width: 30%;"> <!-- Sunday -->
+</colgroup>
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Friday</th>
+      <th>Saturday</th>
+      <th>Sunday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>08:00</td>
+      <td class="crossed"></td>
+      <td><strong>Breakfast</strong></td>
+      <td><strong>Breakfast</strong></td>
+    </tr>
+    <tr>
+      <td>09:00</td>
+      <td class="crossed"></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>13:00</td>
+      <td class="crossed"></td>
+      <td><strong>Lunch</strong></td>
+      <td><strong>Lunch & farewell</strong></td>
+    </tr>
+    <tr>
+      <td>14:00</td>
+      <td><strong>Check-in & arrivals</strong></td>
+      <td></td>
+      <td class="crossed"></td>
+    </tr>
+    <tr>
+      <td>19:00</td>
+      <td><strong>Dinner</strong></td>
+      <td><strong>Dinner</strong></td>
+      <td class="crossed"></td>
+    </tr>
+    <tr>
+      <td>20:00</td>
+      <td></td>
+      <td></td>
+      <td class="crossed"></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="accommodation">Accommodation</h2>
 
